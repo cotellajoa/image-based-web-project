@@ -1,0 +1,57 @@
+:root {
+    --bg: #CED6F0;
+    font-family: "Astonpoliz";
+}
+
+@font-face {
+    font-family: 'Astonpoliz';
+    src: url("./../font/Astonpoliz.otf");
+}
+
+@font-face {
+    font-family: 'Redrose';
+    src: url("./../font/RedRose-Light.ttf");
+}
+
+#bg-body {
+    background-color: var(--bg);
+    margin: 50px 40px;
+}
+
+.main {
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.main #srv {
+    padding-top: 50px;
+    color: #3F66E1;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.main h1 {
+    color: #13255B;
+    font-weight: bold;
+}
+
+.main h2 {
+    color: #727272;
+    font-size: 12px;
+}
+
+.icons-description {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.icons {
+    width: 35px;
+}
+
+.desc-icon {
+    font-family: "Redrose";
+}
