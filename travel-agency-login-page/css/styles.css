@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "RedditMono";
+    src: url(./../fonts/RedditMono.ttf);
+}
+
+:root {
+    font-family: "RedditMono";
+    background-color: #CED6F0;
+}
+
+.login-container {
+    width: 60%;
+    margin: 70px auto;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 20px;
+    padding: 55px;
+}
+
+.login-container img {
+    margin: 10px 0 10px 0;
+}
+
+#subtitle {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #4A5053;
+    margin: 25px 0;
+    text-align: left;
+    color: #53585B;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    row-gap: 15px;
+    margin: 20px 0;
+}
+
+.form label {
+    font-weight: 800;
+}
+
+.form input {
+    height: 40px;
+    border: 2px solid #B2BBC9;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.login-btn {
+    width: 100%;
+    height: 45px;
+    color: #EFF5FE;
+    background-color: #367BF5;
+    border: #1B68F3 1px solid;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#register {
+    cursor: pointer;
+    font-weight: bolder;
+}
